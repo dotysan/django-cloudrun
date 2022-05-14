@@ -27,6 +27,8 @@ initpip() {
     echo '.venv/' >.gitignore
     pip install Django
     pip freeze >requirements.txt
+    git add .
+    git commit -m 'initial commit'
 }
 
 main
