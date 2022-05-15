@@ -1,4 +1,12 @@
-asgiref==3.5.1
-Django==4.0.4
-pkg_resources==0.0.0
-sqlparse==0.4.2
+# these should automagically pull in latest Django
+django-environ==0.8.1
+django-storages[google]==1.12.3
+#Django==4.0.4
+
+# Python WSGI for Google Cloud Run
+gunicorn==20.1.0
+
+# Postgres driver in Python
+#psycopg2-binary==2.9.3
+# let's build our own wheel from source
+psycopg2==2.9.3
