@@ -1,0 +1,8 @@
+# if this file is missing, it magically skips .git/ and contentes of .gitignore
+.git/
+
+# copy of .gitignore
+.venv/
+
+# not needed for web app
+Curtisez.sh
