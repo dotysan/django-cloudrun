@@ -7,6 +7,8 @@ django-storages[google]==1.12.3
 gunicorn==20.1.0
 
 # Postgres driver in Python
-#psycopg2-binary==2.9.3
+psycopg2-binary==2.9.3
 # let's build our own wheel from source
-psycopg2==2.9.3
+#psycopg2==2.9.3
+# nope! Clioud Build using Buuildpack doesn't have all dependencies needed to build it from source
+# Error: pg_config executable not found.
